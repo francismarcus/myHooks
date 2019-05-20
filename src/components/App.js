@@ -1,9 +1,10 @@
 import React from 'react';
-import './App.css';
+import AppContainer from 'components/useInputState/App';
 
 function App() {
   return (
     <>
+      <AppContainer />
     </>
   );
 }
