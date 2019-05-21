@@ -1,4 +1,13 @@
+// @flow
 import React from 'react';
+
+type State = {
+  user: Array<{
+    name: string,
+    email: string,
+    password: string,
+  }>
+};
 
 export const initialState: State =
   {
@@ -9,4 +18,4 @@ export const initialState: State =
     }
   }
 
-export const Context = React.createContext();
+export const Context = React.createContext<any>();
